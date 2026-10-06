@@ -23,6 +23,11 @@ mvn site:site
 mvn javadoc:javadoc
 ```
 
+## Ejecutar la interfaz gráfica
+```bash
+mvn exec:java
+```
+
 ## Ejecutar la CLI
 ```bash
 mvn exec:java -Dexec.mainClass=com.aerolineavs.tarifas.App
